@@ -1,55 +1,16 @@
 {
-<<<<<<< HEAD
+  "name": "quiz-backend",
+  "version": "1.0.0",
+  "description": "Backend for Siksha quiz microservice using Firebase Realtime DB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "body-parser": "^2.2.0",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "firebase-admin": "^13.2.0",
-    "uuid": "^11.1.0"
-  },
-  "scripts": {
-  "start": "node server.js"
-}
-=======
-  "name": "frontend",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.6.7",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0",
-    "react-router-dom": "^7.4.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "express": "^4.18.2",
+    "firebase-admin": "^11.10.1",
+    "uuid": "^9.0.0"
   }
->>>>>>> 5427a853858cb9b8874f4a7f57e019aaa64edef9
 }
