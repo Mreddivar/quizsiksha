@@ -13,7 +13,11 @@ admin.initializeApp({
 
 const db = admin.database();
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://quizsiksha-6m69.vercel.app',  // ✅ your Vercel frontend
+  methods: ['GET', 'POST'],
+  credentials: true
+}));
 app.use(bodyParser.json());
 
 app.post('/quiz', async (req, res) => {
