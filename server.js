@@ -14,7 +14,7 @@ admin.initializeApp({
 const db = admin.database();
 const app = express();
 app.use(cors({
-  origin: 'https://quizsiksha-6m69.vercel.app',  // ✅ your Vercel frontend
+  origin: ['https://siksha-sktt.vercel.app', 'https://quizsiksha-6m69.vercel.app'],
   methods: ['GET', 'POST'],
   credentials: true
 }));
